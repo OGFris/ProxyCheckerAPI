@@ -19,7 +19,7 @@ require ("ProxyCheckerResponse.php");
 
 class ProxyChecker
 {
-    const URL = "http://checkproxy.ga/api/proxychecker/?key={key}&ip={ip}";
+    const URL = "https://proxychecker-web.herokuapp.com/?key={key}&ip={ip}";
 
     /** @var String */
     private $key;
