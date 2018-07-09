@@ -61,7 +61,9 @@ class ProxyChecker
 }
 
 /**
- * NOTE: when the json answer returns an stdClass this function will be used to decode it into an array.
+ * NOTE: when the json answer returns an stdClass this function will be used to decode it into an array,
+ * That's a server side error that i ill fix as soon as i can.
+ *
  * @param $answer
  * @return array
  */
