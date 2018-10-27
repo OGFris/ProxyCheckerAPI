@@ -3,7 +3,7 @@ A PHP-Library used to check whether an IP is a proxy or not, it uses an online a
 ### API:
 See the the [example](https://github.com/OGFris/ProxyCheckerAPI/tree/master/example) or just try it without this Library with the command:
     
-    echo https://proxychecker-web.herokuapp.com/proxychecker/?ip=IP_HERE&key=KEY_HERE
+    curl https://proxychecker-web.herokuapp.com/proxychecker/?ip=IP_HERE&key=KEY_HERE
 ### Developer
 - [@OGFris](https://twitter.com/OGFris)
 ### License
