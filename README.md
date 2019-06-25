@@ -1,9 +1,9 @@
 # ProxyCheckerAPI
-A PHP-Library used to check whether an IP is a proxy or not, it uses an online api made by [@OGFris](https://twitter.com/OGFris)
+ ProxyChecker is a public API that doesn't have limits or authentication required, it was made for the purpose of learning and shouldn't be used in production site if you aren't ready to take risks. It's made with PHP and is hosted at herokuapp currently.
 ### API:
 See the the [example](https://github.com/OGFris/ProxyCheckerAPI/tree/master/example) or just try it without this Library with the command:
     
-    curl https://proxychecker-web.herokuapp.com/proxychecker/?ip=IP_HERE&key=KEY_HERE
+    curl https://proxychecker-web.herokuapp.com/?ip=192.168.1.1&key=YOUR_KEY
 ### Developer
 - [@OGFris](https://twitter.com/OGFris)
 ### License
